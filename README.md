@@ -2,7 +2,7 @@
 
 # Factory Constructor
 
-`Factort Constructor` : Factory constructors provide the flexibility to return instances of subclasses instead of the class itself.
+- `Factort Constructor` : Factory constructors provide the flexibility to return instances of subclasses instead of the class itself.
 
 ## Example
 
