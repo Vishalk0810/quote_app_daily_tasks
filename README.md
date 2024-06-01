@@ -8,6 +8,14 @@
 - Unlike generative constructors that always return a new instance, factory constructors allow greater control over the creation of objects.
 - They can return instances of subclasses, new instances, or even existing instances.
 
+## Advantages
+
+- Flexible alternatives to generative constructors.
+- It is a named constructor.
+- Returning Subclass Instances.
+- Efficient Object Creation.
+- Singleton Pattern.
+
 ## Example
 
 ```bash
@@ -46,6 +54,16 @@ void main() {
 ```
 
 # Modal Class
+
+## Advantages
+
+- Readability
+- Faster
+- Safer
+- Structure
+- Related to the model
+- Code generation
+- Testing
 
 `Modal Class` :- 
 
