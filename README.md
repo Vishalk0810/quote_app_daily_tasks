@@ -2,7 +2,8 @@
 
 # Factory Constructor
 
-- `Factort Constructor` : Factory constructors provide the flexibility to return instances of subclasses instead of the class itself.
+`Factort Constructor` :- - Factory constructors provide the flexibility to return instances of subclasses instead of the class itself.
+- This allows for dynamic object creation based on specific conditions.
 
 ## Example
 
@@ -40,3 +41,5 @@ void main() {
   animal2.speak(); // Output: Woof!
 }
 ```
+
+# 
