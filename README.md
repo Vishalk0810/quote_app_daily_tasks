@@ -1,16 +1,42 @@
 # quote_app_daily_tasks
 
-A new Flutter project.
+# Factory Constructor
 
-## Getting Started
+`Factort Constructor` : Factory constructors provide the flexibility to return instances of subclasses instead of the class itself.
 
-This project is a starting point for a Flutter application.
+## Example
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+class Animal {
+  String name;
+Animal(this.name);
+  factory Animal(String type, String name) {
+    switch (type) {
+      case "cat":
+        return Cat(name);
+      case "dog":
+        return Dog(name);
+      default:
+        throw Exception("Invalid animal type");
+    }
+  }
+}
+class Cat extends Animal {
+  Cat(String name) : super(name);
+  void speak() {
+    print("Meow!");
+  }
+}
+class Dog extends Animal {
+  Dog(String name) : super(name);
+  void speak() {
+    print("Woof!");
+  }
+}
+void main() {
+  Animal animal1 = Animal("cat", "Tom");
+  animal1.speak(); // Output: Meow!
+  Animal animal2 = Animal("dog", "Buddy");
+  animal2.speak(); // Output: Woof!
+}
+```
