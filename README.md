@@ -137,9 +137,19 @@ void main(){
 <img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/a9bf6f90-ac03-417f-933b-f5e700cd95b0" height=22% width=35%>
 <img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/a75750c2-fca5-4390-afef-a7fc759ba8b9" height=22% width=35%>
 
-
-
 https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/495a5beb-e71d-4a7b-a10d-8771e8ab4263
+
+# Invoice Generator
+
+<img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/61b58ed6-6483-4eb0-b4f2-43d3115dfc02" height=22% width=35%>
+
+<img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/71411392-bcb8-4cc3-add1-a59aa48f7b5d" height=22% width=35%>
+
+<img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/35b330d8-6f9b-47a3-bf55-5a31e15e10cc" height=22% width=35%>
+
+https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/bdba4dc3-9dca-4ac2-abb1-e1a68e37adae
+
+
 
 
 
