@@ -149,6 +149,12 @@ https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/495a5beb-e
 
 https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/bdba4dc3-9dca-4ac2-abb1-e1a68e37adae
 
+# Quotes
+
+<img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/3f3bd42a-8089-40f7-ae1d-8ebf4207a377" height="550">
+<img src="https://github.com/Vishalk0810/quote_app_daily_tasks/assets/149374506/57bdd6af-58ec-4b50-8796-76418ce145e9" height="550">
+
+
 
 
 
