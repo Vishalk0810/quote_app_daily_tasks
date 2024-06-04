@@ -83,6 +83,24 @@ Future<Uint8List> generatePdf() {
                 pw.TableRow(
                   children: [
                     pw.Text(
+                      'Technical Engagement',
+                      style: const pw.TextStyle(
+                        fontSize: 25,
+                      ),
+                      textAlign: pw.TextAlign.center,
+                    ),
+                    pw.Text(
+                      '${invoiceDetails[SelectedIndex]['title']}',
+                      style: const pw.TextStyle(
+                        fontSize: 25,
+                      ),
+                      textAlign: pw.TextAlign.center,
+                    ),
+                  ],
+                ),
+                pw.TableRow(
+                  children: [
+                    pw.Text(
                       'Price',
                       style: const pw.TextStyle(
                         fontSize: 25,
