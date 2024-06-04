@@ -40,6 +40,9 @@ class _QuotesScreenState extends State<QuotesScreen> {
             children: [
               ...List.generate(quoteList.length, (index) {
                 return Card(
+                  color: Colors.primaries[
+                    Random().nextInt((Colors.primaries.length))
+                  ],
                   child: ListTile(
                     title: Text(quoteModel!.quoteModelList[index].quote!),
                     subtitle: Text(quoteModel!.quoteModelList[index].author!),
@@ -55,9 +58,22 @@ class _QuotesScreenState extends State<QuotesScreen> {
             int x = random.nextInt(quoteModel!.quoteModelList.length);
             setState(() {
               showDialog(context: context, builder: (context) => AlertDialog(
+                backgroundColor: Colors.primaries[
+                  Random().nextInt((Colors.primaries.length))
+                  ],
                 title: Text(quoteModel!.quoteModelList[x].quote!),
+                content: Text(quoteModel!.quoteModelList[x].author!),
                 actions: [
-                  Text(quoteModel!.quoteModelList[x].author!),
+                  TextButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: const Text('Cancel')),
+                  TextButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: const Text('Save'))
                 ],
               ),);
             });
