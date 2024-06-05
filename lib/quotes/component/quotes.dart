@@ -40,8 +40,8 @@ class _QuotesScreenState extends State<QuotesScreen> {
             children: [
               ...List.generate(quoteList.length, (index) {
                 return Card(
-                  color: Colors.primaries[
-                    Random().nextInt((Colors.primaries.length))
+                  color: Colors.accents[
+                    Random().nextInt((Colors.accents.length))
                   ],
                   child: ListTile(
                     title: Text(quoteModel!.quoteModelList[index].quote!),
@@ -58,8 +58,8 @@ class _QuotesScreenState extends State<QuotesScreen> {
             int x = random.nextInt(quoteModel!.quoteModelList.length);
             setState(() {
               showDialog(context: context, builder: (context) => AlertDialog(
-                backgroundColor: Colors.primaries[
-                  Random().nextInt((Colors.primaries.length))
+                backgroundColor: Colors.accents[
+                  Random().nextInt((Colors.accents.length))
                   ],
                 title: Text(quoteModel!.quoteModelList[x].quote!),
                 content: Text(quoteModel!.quoteModelList[x].author!),
